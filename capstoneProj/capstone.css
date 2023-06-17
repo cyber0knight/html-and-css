@@ -86,35 +86,39 @@ h3{
   margin-top: 150px;
 
 }
-.parent {
-  margin-top: 100px;
-  margin-bottom: 150px;
-  display: grid;
-  grid-template-columns: 2fr 1fr 2fr 2fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 0; /* Set gap to 0 to remove the gap between grid items */
-}
-
-.typing {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.Biryani {
-  grid-column-start: 2;
-  grid-row: 2;
-}
-
-.coding {
-  grid-column-start: 3;
-}
-
-.coding {
-  grid-column-start: 3;
-}
-
-.Eating {
-  grid-column-start: 3;
+@media (min-width:600px)
+{
+  .parent {
+    margin-top: 100px;
+    margin-bottom: 150px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0; /* Set gap to 0 to remove the gap between grid items */
+  }
+  
+  .typing {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .Biryani {
+    grid-column-start: 2;
+    grid-row: 2;
+  }
+  
+  .coding {
+    grid-column-start: 3;
+  }
+  
+  .coding {
+    grid-column-start: 3;
+  }
+  
+  .Eating {
+    grid-column-start: 3;
+  }
+  
 }
 
 .typing > img, .Biryani > img {
