@@ -45,6 +45,13 @@ h3{
   margin-bottom: 0;
 }
 
+@media(max-width: 600px)
+{
+  .mountain{
+    width: 400px;
+  }
+}
+
 .profile > img {
   border-radius: 50%;
   width: 200px;
