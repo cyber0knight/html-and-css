@@ -50,6 +50,22 @@ h3{
   .mountain{
     width: 350px;
   }
+  .top-cloud{
+    width: 100px;
+  }
+  .TinDog, .Agency, .Float {
+    margin: 0;
+    padding: 0;
+  }
+  .img-title{
+    padding: 0;
+  }
+}
+@media(max-width:400px)
+{
+  .mountain{
+    width: 300px;
+  }
 }
 
 .profile > img {
